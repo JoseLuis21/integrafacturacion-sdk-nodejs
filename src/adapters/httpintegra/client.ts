@@ -47,7 +47,7 @@ export class Client implements IntegraFacturacionAPI {
     }
 
     this.fetchFn = config.fetchFn ?? fetch;
-    this.userAgent = config.userAgent?.trim() || 'integrafacturacion-sdk-nodejs/0.1.0';
+    this.userAgent = config.userAgent?.trim() || '@integrafacturacion/sdk/0.1.0';
   }
 
   async createDocument(req: CreateDocumentRequest): Promise<APIResponse> {

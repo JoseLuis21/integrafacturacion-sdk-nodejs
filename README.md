@@ -1,11 +1,11 @@
-# integrafacturacion-sdk-nodejs
+# @integrafacturacion/sdk
 
 SDK en Node.js + TypeScript para consumir la API de [IntegraFacturacion](https://api.integrafacturacion.cl), siguiendo arquitectura hexagonal.
 
 ## Instalacion
 
 ```bash
-npm install integrafacturacion-sdk-nodejs
+npm install @integrafacturacion/sdk
 ```
 
 ## Estructura
@@ -18,7 +18,7 @@ npm install integrafacturacion-sdk-nodejs
 ## Uso recomendado
 
 ```ts
-import { Client, Service, encodeDataDTE } from 'integrafacturacion-sdk-nodejs';
+import { Client, Service, encodeDataDTE } from '@integrafacturacion/sdk';
 
 const adapter = new Client({
   apiKey: 'TU_X_API_KEY'
