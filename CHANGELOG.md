@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/JoseLuis21/integrafacturacion-sdk-nodejs/compare/sdk-v0.2.0...sdk-v0.2.1) (2026-03-11)
+
+
+### Bug Fixes
+
+* **api:** update package name and references from IntegraFacturacion to IntegraDTE ([070b0fe](https://github.com/JoseLuis21/integrafacturacion-sdk-nodejs/commit/070b0fef75b2c34086112fcff7980552c2b27907))
+
 ## [0.2.0](https://github.com/JoseLuis21/integrafacturacion-sdk-nodejs/compare/sdk-v0.1.0...sdk-v0.2.0) (2026-02-28)
 
 
